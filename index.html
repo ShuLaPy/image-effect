@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Image Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Add the filter to Img using <span class="hl">JS</span></h1>
+
+    <form>
+        <label for="spacing">Spacing: </label>
+        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Blur: </label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base-color">Base Color: </label>
+        <input type="color" name="base-color" value="#38ef46">
+    </form>
+
+    <img id="img" src="images.jpg" alt="images">
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>

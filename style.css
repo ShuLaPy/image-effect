@@ -1,0 +1,32 @@
+:root {
+    --base-color: #38ef46;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+#img {
+    margin: 50px auto;
+    width: 600px;
+    padding: var(--spacing);
+    background: var(--base-color);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base-color);
+}
+
+body {
+    background-color: #283c4e;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+label {
+    font-size: 25px;
+    color: teal;
+}
